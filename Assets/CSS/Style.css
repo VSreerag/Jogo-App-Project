@@ -1,0 +1,638 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x:hidden ;
+    box-sizing: border-box;
+}
+
+.Jogo-logo{
+    width: 100vw;
+    height: 50vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogo-logo-img{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+}
+
+.jogo-start-btn{
+   width: 100vw;
+   height: 50vh;
+}
+
+.btn-continue{
+    width: 134px;
+    height: 42px;
+    background:#1669e5;
+    border: 1px solid #1669e5;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+    padding: 9px 30px 9px 30px;
+    position: absolute;
+    right: 5px;
+    bottom: 20px;
+}
+
+/* Second-Page */
+
+.explore-heading{
+    width: 100vw;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+
+.Guest-logo{
+    position: absolute;
+    right: 40px;
+}
+
+.recent-match{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 100vw;
+    background: #f2f2f2;
+}
+
+.match-card{
+    width: 100vw;
+    background: #f2f2f2;
+}
+
+.match-card{
+    padding-left: 9px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.recent-match-card1{
+    width: 150px;
+    height: 100px;
+    background: #e0e0e0;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.recent-match-card2{
+    width: 150px;
+    height: 100px;
+    background: #e0e0e0;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.neraby-clubs{
+    width: 100vw;
+    background: #f2f2f2;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nearby-clubs-cards{
+    width: 100vw;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.club-card1{
+    width: 90px;
+    height: 110px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.add-icon{
+    position: absolute;
+    left: 19%;
+    top: 34%;
+    transform: translate(-50%,-50%); 
+}
+
+.new-club{
+    font-size: 15px;
+    color: #bdbdbd;
+    position: absolute;
+    left: 19%;
+    top: 36%;
+    transform: translate(-50%,-50%); 
+}
+
+.club-card2{
+    width: 90px;
+    height: 110px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.club-icon2{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.club-card3{
+    width: 90px;
+    height: 110px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.club-icon3{
+    position: absolute;
+    left: 81%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.shop-cool-stuff{
+    width: 100vw;
+    background:#e0e0e0 ;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.shop-market{
+    width: 100vw;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 0px 25px 7px;
+}
+
+.shop-card1{
+    width: 100px;
+    height: 120px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.shop-icon1{
+    position: absolute;
+    left: 11%;
+    top: 52%;
+}
+
+.shop-coins1{
+    width: 67px;
+    height: 21px;
+    background: #27ae60;
+    border-radius: 5px;
+    padding: 0px 2px 0px 2px;
+    position: absolute;
+    left: 10%;
+    top: 62%;
+    text-align: center;
+}
+
+.shop-card2{
+    width: 100px;
+    height: 120px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.shop-icon2{
+    position: absolute;
+    left: 43%;
+    top: 52%;
+}
+
+.shop-coins2{
+    width: 67px;
+    height: 21px;
+    background: #27ae60;
+    border-radius: 5px;
+    padding: 0px 2px 0px 2px;
+    position: absolute;
+    left: 42%;
+    top: 62%;
+    text-align: center;
+}
+
+
+
+.shop-card3{
+    width: 100px;
+    height: 120px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.shop-icon3{
+    position: absolute;
+    left: 72%;
+    top: 51%;
+}
+
+.shop-coins3{
+    width: 67px;
+    height: 21px;
+    background: #27ae60;
+    border-radius: 5px;
+    padding: 0px 2px 0px 2px;
+    position: absolute;
+    left: 75%;
+    top: 62%;
+    text-align: center;
+}
+
+.shop-coins-count{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-card{
+    width: 100vw;
+    background: #f2f2f2;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.footer-card-box{
+    width: 274px;
+    height: 71px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 12px 10px 12px 10px;
+}
+
+.footer-coin{
+    position: absolute;
+    left: 11%;
+    top: 71%;
+}
+
+.earn-coins{
+    font-size: 30px;
+    background: -webkit-linear-gradient(#e0812a,#f6d170);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   position: absolute;
+   left: 26%;
+   top: 71%;
+}
+
+.playing-footbal{
+    position: absolute;
+    top: 74%;
+    left: 26%;
+    font-size: 22px;
+    color: #522e00;
+    line-height: 1.45
+}
+
+.footer{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #828282;
+    padding-top: 28px;
+    position: absolute;
+    right: 7%;
+}
+
+/* Third Page */
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.first-display{
+    width: 100vh;
+    height: 50vh;
+}
+
+.first-display-head{
+    width: 44vh;
+    background: #fff;
+    padding: 24px 24px 24px 24px;
+}
+
+.previous{
+    float: left;
+    text-align: center;
+}
+
+.previous-btn{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background: #dce9fb;
+    color:#1669e5;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.club{
+    float: left;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.my-club{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.edit{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
+
+.edit-btn{
+    width: 65px;
+    height: 32px;
+    font-size: 16px;
+    border-radius: 16px;
+    color: #2f80ed;
+    background: #dce9fb;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.club-logo-first-display{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.club-name{
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%,-50%);
+}
+
+.rangers-fc{
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.first-display-footer{
+    width: 44vh;
+    position: absolute;
+    top: 45%;
+    padding-left: 21px;
+}
+
+.footer-btn-select{
+    font-size: 16px;
+    border: none;
+    background: none;
+    color:#2f80ed;
+    font-weight: 600;
+}
+
+.footer-btn{
+    font-size: 16px;
+    border: none;
+    background: none;
+    color:#4f4f4f;
+    font-weight: 600;
+}
+
+.second-display{
+    width: 50vh;
+    height: 50vh;
+    background:#f2f2f2;
+}
+
+.second-display-avatar{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-24%);
+}
+
+.second-display-content{
+    width: 34vh;
+    text-align: center;
+    position: relative;
+    top: 39%;
+    left: 15%;
+}
+
+.second-display-content-sub{
+    font-size: 16px;
+    color: #bdbdbd;
+}
+
+.whtasaap-invite{
+    position: relative;
+    top: 53%;
+    left: 17%;
+    text-align: center;
+}
+
+.whatsaap-img{
+    float: left;
+}
+
+.whatsaap-button{
+    float: left;
+    text-align: center;
+}
+
+.whatsaap-btn{
+    width: 156px;
+    height: 40px;
+    background: #40c351;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* Four Page */
+
+.team{
+    width: 50vh;
+    height: 50vh;
+    background: #f2f2f2;
+    padding: 24px 24px 24px 24px;
+}
+
+.main-team{
+    width: 312px;
+    height: 164px;
+    background: goldenrod;
+    border-radius: 8px;
+    background: #fff;
+    
+}
+
+.main-team-title{
+    padding: 16px 16px 1px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-team-head{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.main-team-sub-title{
+    padding-left: 18px;
+    font-size: 17px;
+    color: #828282;
+    padding-bottom: 7px;
+}
+
+.strngth{
+    padding-left: 18px;
+    background: #f2f2f2;
+    height: 40px;
+    padding-top: 17px;
+    padding-bottom: 25px;
+    border: 2px solid  #f2f2f2;
+    box-shadow: 0px 1px #fff;
+    border-bottom-right-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+}
+
+.strength{
+    font-size: 10px;
+    color: #27ae60;
+    font-weight: 550;
+    background: #f2f2f2;
+}
+
+.dashed-line{
+    color: #27ae60;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0.93;
+    background: #f2f2f2;
+}
+
+.squad{
+    width: 185px;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 37%;
+    top: 65%;
+    padding-top: 17px;
+}
+
+.add{
+    width: 312px;
+    height: 88px;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    top: 6%;
+    text-align: center;
+}
+
+.add-new{
+    color: #bdbdbd;
+    font-size: 16px;
+    position: relative;
+    top: 35%;
+}
+
+/* Fifth Page */
+
+.home-stadium{
+    width: 50vh;
+    height: 50vh;
+    background: #f2f2f2;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+
+.ground{
+    padding-bottom: 24px;
+}
+
+.home-ground{
+    font-size: 16px;
+    color: #4f4f4f;
+    font-weight: bold;
+}
+
+.location-card{
+    width: 313px;
+    height: 131px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.ground-place{
+    padding-left: 24px;
+    padding-top: 15px;
+}
+
+.kaiparambu{
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.J34MFWH-Kaiparambu-Kerala{
+    font-size: 14px;
+    color: #4f4f4f;
+}
+
+.direction{
+    padding-top: 10px;
+}
+
+.direction-btn{
+    width: 141px;
+    height: 42px;
+    font-size: 16px;
+    background: #1669e5;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 36px;
+    
+}
