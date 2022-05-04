@@ -290,7 +290,7 @@ body{
 .footer-coin{
     position: absolute;
     left: 11%;
-    top: 71%;
+    top: 74%;
 }
 
 .earn-coins{
@@ -300,20 +300,22 @@ body{
    -webkit-text-fill-color: transparent;
    position: absolute;
    left: 26%;
-   top: 71%;
+   top: 73%;
 }
 
 .playing-footbal{
     position: absolute;
-    top: 74%;
+    top: 77%;
     left: 26%;
-    font-size: 22px;
+    font-size: 16px;
+    font-weight: bold;
     color: #522e00;
     line-height: 1.45
 }
 
 .footer{
-    width: 100vw;
+    width: 36vh;
+    height: 6vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
